@@ -9,11 +9,7 @@ class FieldTechApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'FieldTech',
-      home: const LoginScreen(),
-    );
+    return MaterialApp(title: 'FieldTech', home: const LoginScreen());
   }
 }
 
